@@ -1,0 +1,26 @@
+.modal {
+    position: fixed;
+    z-index: 100;
+    bottom: -100px;
+    left: 50%;
+
+    display: block;
+    padding: 12px 20px;
+    width: fit-content;
+
+    text-align: center;
+
+    background-color: $colorLightGrey;
+    border: 1px solid $colorGrey;
+    border-radius: 5px;
+
+    transform: translateX(-50%);
+    transition: 0.3s;
+    @media (max-width: 1199.98px) {
+        
+    }
+    &.--open {
+        bottom: 25px;
+    }
+    
+}

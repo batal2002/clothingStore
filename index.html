@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+<body>
+    <span class="modal" id="modal__add-to-cart"></span>
+    <span class="modal" id="modal__add-to-favorite"></span>
+    <header class="header">
+        <div class="container header__container">
+            <div class="header__top-line">
+                <a href="#" class="header__logo">
+                    <img src="img/LOGO.svg" alt="LOGO">
+                </a>
+                <div class="header__wrapper">
+                    <a href="#" class="header__item">
+                        <img src="img/person.svg" alt="">
+                    </a>
+                    <a href="#" class="header__item">
+                        <img src="img/favorite.svg" alt="">
+                    </a>
+                    <a href="#" class="header__item --cart">
+                        <img src="img/bag.svg" alt="">
+                        <span class="header__counter">14</span>
+                    </a>
+                    <div class="header__item header__burger"></div>
+                </div>
+            </div>
+
+            <nav class="nav">
+                <div class="nav__close">
+                    
+                </div>
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#">постельное белье</a></li>
+                    <li class="nav__item"><a href="#">одежда для дома</a></li>
+                    <li class="nav__item"><a href="#">одежда для улицы</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container main__container">
+            <div class="main__gallery">
+                <div class="main__photo-wrapper">
+                    <img src="img/main_photo.png" alt="" class="main__photo">
+                </div>
+                
+                <div class="main__photos">
+                    <div class="main__item">
+                        <img src="img/main_photo.png" alt="../../img/main_photo.png" class="main__item-img">
+                    </div>
+                    <div class="main__item">
+                        <img src="img/photo.png" alt="../../img/photo.png" class="main__item-img">
+                    </div>
+                    <div class="main__item">
+                        <img src="img/styles-photo.png" alt="../../img/styles-photo.png" class="main__item-img"> 
+                    </div>
+                    <div class="main__item">
+                        <img src="img/photo2.png" alt="../../img/photo2.png" class="main__item-img">
+                    </div>
+                    <div class="main__item">
+                        <img src="img/photo3.png" alt="../../img/photo3.png" class="main__item-img">
+                    </div>
+                </div>
+            </div>
+            <div class="main__content">
+                <div class="main__info-wrapper">
+                    <div class="main__info">
+                        <h2 class="main__title">Пижама для девочек</h2>
+                        <span class="main__vend-code">Арт. 02765/46</span>
+                        <div class="main__grade">
+                            <span>Отзывы</span>
+                            <div class="main__rating">
+                                <div class="main__active"></div>
+                                <div class="main__rating-wrapper">
+                                    <input type="radio" class="main__radio" value="1" name="rating">
+                                    <input type="radio" class="main__radio" value="2" name="rating">
+                                    <input type="radio" class="main__radio" value="3" name="rating">
+                                    <input type="radio" class="main__radio" value="4" name="rating">
+                                    <input type="radio" class="main__radio" value="5" name="rating">
+                                </div>
+                            </div>
+                            <a href="#" class="main__count-reviews">14 отзывов</a>
+                        </div>
+                    </div>
+                    
+                    <a href="" class="main__price-block">
+                        <span class="main__price">800 ₽</span>
+                        <span class="main__price-old">1 500 ₽</span>
+                    </a>
+    
+                    <div class="main__status">
+                        <div class="main__status-item">скидка -36%</div>
+                        <div class="main__status-item">акция -20%</div>
+                    </div>
+    
+                    <div class="main__size-block">
+                        <span class="main__select">Выбрать размер</span>
+                        <ul class="main__size-list">
+                            <li class="main__size-item">18</li>
+                            <li class="main__size-item">20</li>
+                            <li class="main__size-item">22</li>
+                            <li class="main__size-item">24</li>
+                            <li class="main__size-item">26</li>
+                        </ul>
+                        <a href="#" class="main__define">Определить размер</a>
+                    </div>
+    
+                    <div class="main__cart-block">
+                        <div class="main__number">
+                            <span class="main__number-change" id="plus">+</span>
+                            <span class="main__counter">1</span>
+                            <span class="main__number-change" id="minus">–</span>
+                        </div>
+                        <div class="main__add">
+                            <button class="main__add-to-cart">Добавить в корзину</button>
+                            <button class="main__add-to-favorite"></button>
+                        </div>
+                    </div>
+    
+                    <a href="#" class="main__buy-link">Купить в 1 клик</a>
+                </div>
+                <div class="main__links">
+                    <ul>
+                        <li>
+                            <a href="#" class="main__link">
+                                <img src="img/closes-icon.svg" alt="close" class="main__links-icon">
+                                <span href="#">Описание товара</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="main__link">
+                                <img src="img/clock-icon.svg" alt="clock" class="main__links-icon">
+                                <span href="#">Доставка и возврат</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="main__link">
+                                <img src="img/pay-icon.svg" alt="pay" class="main__links-icon">
+                                <span href="#" >Способы оплаты</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section class="styles">
+        <div class="container styles__container">
+            <a href="#" class="styles__see-link">Посмотреть все стили</a>
+            <div class="styles__gallery">
+                <div class="styles__photo --large">
+                    <img src="img/largephoto.png" alt="photo">
+                    <div class="styles__hover-block">
+                        <div class="styles__full-screen"></div>
+                        <a href="#" class="styles__on-me">
+                            <img src="img/bag-white.svg" alt="bag">
+                            <span>Узнай, что на мне</span>
+                        </a>
+                        <div class="styles__favorite-block">
+                            <div class="styles__favorite"></div>
+                            <span>200</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="styles__collage">
+                    <div class="styles__photo">
+                        <img src="img/styles-photo.png" alt="photo">
+                        <div class="styles__hover-block">
+                            <div class="styles__full-screen"></div>
+                            <a href="#" class="styles__on-me">
+                                <img src="img/bag-white.svg" alt="bag">
+                                <span>Узнай, что на мне</span>
+                            </a>
+                            <div class="styles__favorite-block">
+                                <div class="styles__favorite"></div>
+                                <span>200</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="styles__photo">
+                        <img src="img/styles-photo1.png" alt="photo">
+                        <div class="styles__hover-block">
+                            <div class="styles__full-screen"></div>
+                            <a href="#" class="styles__on-me">
+                                <img src="img/bag-white.svg" alt="bag">
+                                <span>Узнай, что на мне</span>
+                            </a>
+                            <div class="styles__favorite-block">
+                                <div class="styles__favorite"></div>
+                                <span>200</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="styles__photo">
+                        <img src="img/styles-photo2.png" alt="photo">
+                        <div class="styles__hover-block">
+                            <div class="styles__full-screen"></div>
+                            <a href="#" class="styles__on-me">
+                                <img src="img/bag-white.svg" alt="bag">
+                                <span>Узнай, что на мне</span>
+                            </a>
+                            <div class="styles__favorite-block">
+                                <div class="styles__favorite"></div>
+                                <span>200</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="styles__photo">
+                        <img src="img/styles-photo3.png" alt="photo">
+                        <div class="styles__hover-block">
+                            <div class="styles__full-screen"></div>
+                            <a href="#" class="styles__on-me">
+                                <img src="img/bag-white.svg" alt="bag">
+                                <span>Узнай, что на мне</span>
+                            </a>
+                            <div class="styles__favorite-block">
+                                <div class="styles__favorite"></div>
+                                <span>200</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer__lists">
+                <ul class="footer__list">
+                    <li class="footer__list-title">покупателям</li>
+                    <li><a href="#" class="footer__link">Каталог</a></li>
+                    <li><a href="#" class="footer__link">Акции</a></li>
+                    <li><a href="#" class="footer__link">Бренды</a></li>
+                </ul>
+                <ul class="footer__list">
+                    <li class="footer__list-title">о нас</li>
+                    <li><a href="#" class="footer__link">О компании</a></li>
+                    <li><a href="#" class="footer__link">Новости</a></li>
+                    <li><a href="#" class="footer__link">Команда</a></li>
+                </ul>
+            </div>
+            <form action="" class="footer__form">
+                <h4 class="footer__form-title">Узнайте первыми о новинках и акциях</h3>
+                <div class="footer__input-block">
+                    <input type="email" placeholder="Адрес электронной почты" class="footer__email">
+                    <div class="footer__input-btn"></div>
+                </div>
+                <button class="footer__btn">Подписаться</button>
+            </form>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    
+</body>
+</html>

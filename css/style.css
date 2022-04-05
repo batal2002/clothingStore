@@ -184,7 +184,7 @@ img, svg {
 .header__burger {
   display: none;
   margin-right: -8px;
-  background-image: url(../../img/burger.svg);
+  background-image: url(../img/burger.svg);
   background-repeat: no-repeat;
   background-position: center center;
 }
@@ -275,7 +275,7 @@ img, svg {
   width: 40px;
   height: 40px;
   margin-left: auto;
-  background-image: url(../../img/close-burger.svg);
+  background-image: url(../img/close-burger.svg);
   background-repeat: no-repeat;
   background-position: center center;
 }
@@ -435,7 +435,7 @@ img, svg {
   width: 100%;
   height: 12px;
   margin-top: 4px;
-  background-image: url(../../img/star_void.svg);
+  background-image: url(../img/star_void.svg);
 }
 
 .main__active {
@@ -453,7 +453,7 @@ img, svg {
   width: 50%;
   height: 12px;
   margin-top: 4px;
-  background-image: url(../../img/star.svg);
+  background-image: url(../img/star.svg);
 }
 
 .main__rating-wrapper {
@@ -493,7 +493,7 @@ img, svg {
   top: 50%;
   width: 24px;
   height: 24px;
-  background-image: url(../../img/arrow-r.svg);
+  background-image: url(../img/arrow-r.svg);
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
 }
@@ -519,7 +519,7 @@ img, svg {
   right: -32px;
   width: 24px;
   height: 24px;
-  background-image: url(../../img/arrow-r.svg);
+  background-image: url(../img/arrow-r.svg);
   background-size: contain;
 }
 
@@ -574,7 +574,7 @@ img, svg {
   top: 10px;
   width: 24px;
   height: 24px;
-  background-image: url(../../img/arrow-r.svg);
+  background-image: url(../img/arrow-r.svg);
   background-size: contain;
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
@@ -697,7 +697,7 @@ img, svg {
   width: 44px;
   height: 44px;
   background-color: #333333;
-  background-image: url(../../img/favorite-white.svg);
+  background-image: url(../img/favorite-white.svg);
   background-repeat: no-repeat;
   background-position: center center;
   border: 1px solid #333333;
@@ -708,16 +708,16 @@ img, svg {
 
 .main__add-to-favorite:hover {
   background-color: #ffffff;
-  background-image: url(../../img/favorite.svg);
+  background-image: url(../img/favorite.svg);
 }
 
 .main__add-to-favorite.--liked {
-  background-image: url(../../img/favorite-full.svg);
+  background-image: url(../img/favorite-full.svg);
 }
 
 .main__add-to-favorite.--liked:hover {
   background-color: #ffffff;
-  background-image: url(../../img/favorite-dark.svg);
+  background-image: url(../img/favorite-dark.svg);
 }
 
 .main__buy-link {
@@ -910,7 +910,7 @@ img, svg {
   width: 48px;
   height: 48px;
   padding: 12px;
-  background-image: url(../../img/full-screen.svg);
+  background-image: url(../img/full-screen.svg);
   background-position: center center;
   background-repeat: no-repeat;
 }
@@ -949,7 +949,7 @@ img, svg {
 .styles__favorite {
   width: 24px;
   height: 24px;
-  background-image: url(../../img/favorite-white.svg);
+  background-image: url(../img/favorite-white.svg);
   background-position: center center;
   background-repeat: no-repeat;
   -webkit-transition: 0.3s;
@@ -957,7 +957,7 @@ img, svg {
 }
 
 .styles__favorite.--like {
-  background-image: url(../../img/favorite-full.svg);
+  background-image: url(../img/favorite-full.svg);
 }
 
 .footer__container {
@@ -1107,7 +1107,7 @@ img, svg {
   right: 0;
   height: 40px;
   width: 40px;
-  background-image: url(../../img/close.svg);
+  background-image: url(../img/close.svg);
   background-repeat: no-repeat;
   background-position: center center;
   -webkit-transition: 0.3s;

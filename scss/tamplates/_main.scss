@@ -118,7 +118,7 @@
             height: 12px;
             margin-top: 4px; 
 
-            background-image: url(../../img/star_void.svg);
+            background-image: url(../img/star_void.svg);
         } 
     }
 
@@ -140,7 +140,7 @@
             height: 12px;
             margin-top: 4px; 
 
-            background-image: url(../../img/star.svg);
+            background-image: url(../img/star.svg);
         }
     }
 
@@ -183,7 +183,7 @@
             width: 24px;
             height: 24px;
 
-            background-image: url(../../img/arrow-r.svg);
+            background-image: url(../img/arrow-r.svg);
 
             transform: translateY(-50%);
         }
@@ -205,7 +205,7 @@
             width: 24px;
             height: 24px;
 
-            background-image: url(../../img/arrow-r.svg);
+            background-image: url(../img/arrow-r.svg);
             background-size: contain;
         }
     }
@@ -261,7 +261,7 @@
             width: 24px;
             height: 24px;
 
-            background-image: url(../../img/arrow-r.svg);
+            background-image: url(../img/arrow-r.svg);
             background-size: contain;
 
             transform: rotate(90deg); 
@@ -381,7 +381,7 @@
         height: 44px;
 
         background-color: $colorBlack;
-        background-image: url(../../img/favorite-white.svg);
+        background-image: url(../img/favorite-white.svg);
         background-repeat: no-repeat;
         background-position: center center;
         border: 1px solid $colorBlack;
@@ -391,15 +391,15 @@
         cursor: pointer;
         &:hover {
             background-color: $colorWhite;
-            background-image: url(../../img/favorite.svg);
+            background-image: url(../img/favorite.svg);
         }
 
         &.--liked {
-            background-image: url(../../img/favorite-full.svg);
+            background-image: url(../img/favorite-full.svg);
 
             &:hover {
                 background-color: $colorWhite;
-                background-image: url(../../img/favorite-dark.svg);
+                background-image: url(../img/favorite-dark.svg);
             }
         }
     }

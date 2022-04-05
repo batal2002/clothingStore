@@ -92,7 +92,7 @@
         height: 48px;
         padding: 12px;
 
-        background-image: url(../../img/full-screen.svg);
+        background-image: url(../img/full-screen.svg);
         background-position: center center;
         background-repeat: no-repeat;
     }
@@ -108,8 +108,7 @@
             margin-top: 13px;
             width: 14%;
             height: auto;
-        }
-        
+        }     
     }
 
     &__favorite-block {
@@ -122,13 +121,13 @@
         width: 24px;
         height: 24px;
 
-        background-image: url(../../img/favorite-white.svg);
+        background-image: url(../img/favorite-white.svg);
         background-position: center center;
         background-repeat: no-repeat;
 
         transition: 0.3s;
         &.--like {
-            background-image: url(../../img/favorite-full.svg);
+            background-image: url(../img/favorite-full.svg);
         }
     }
 

@@ -91,9 +91,7 @@ function sizeList() {
 
     item.forEach(item => {
         item.addEventListener('click', (e) => {
-            let text = e.target.innerText;
-            
-            select.innerText = text;
+            select.innerText = e.target.innerText;
         });
     });
     document.addEventListener('click', (e) => {
